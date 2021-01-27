@@ -1,5 +1,13 @@
 # Basic Overview
 This sample web api contains a product controller and you can `GET/POST/PUT` and `DELETE` product items. Also, you must authenticate the user to get data or to do which methods you want to use.
+
+## Code Overview 
+- `SampleApplication.WebApi/` : This layer contains web api  project.
+   - `SampleApplication.WebApi/Controllers`: Contains products controller, also Http methods.
+   - `SampleApplication.WebApi/Models`: Contains product model.
+   - `SampleApplication.WebApi/CustomMiddlewares`: Contains authentication custom Middleware.
+  
+
 ## Get single product
 `http://localhost:57205/api/Products/7`
 
